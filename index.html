@@ -193,12 +193,13 @@
 <style>
 /* --- Mobile Layout Fixes (Does not affect laptop view) --- */
 @media (max-width: 768px) {
-    /* Fixes the gold button text wrapping and breaking apart */
-    .cta-button {
+    /* Fixes the gold button distortion on mobile phones */
+    .btn-gold {
         white-space: nowrap !important;
-        font-size: 14px !important; 
+        font-size: 13px !important;       /* Scales down the text slightly for mobile screens */
+        padding-left: 24px !important;    /* Clean, balanced horizontal spacing for mobile */
+        padding-right: 24px !important;
         display: inline-block !important;
-        width: auto !important;
     }
 }
 </style>
